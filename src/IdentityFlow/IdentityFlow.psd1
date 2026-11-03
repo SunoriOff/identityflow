@@ -3,7 +3,7 @@
     ModuleVersion     = '1.0.0'
     GUID              = '7c0f3a52-4d7e-4b8f-9a61-2f5d8e1c9b30'
     Author            = 'Joris Pelaud'
-    Copyright         = '(c) 2026 Joris Pelaud. Licence MIT.'
+    Copyright         = '(c) 2026 Joris Pelaud. Licence WTFPL.'
     Description       = 'Arrivées, mobilités et départs des collaborateurs à partir de l''export RH : comptes Active Directory ou Entra ID, groupes, licences, plan vérifiable avant application, journal d''audit et annulation.'
     PowerShellVersion = '5.1'
     CompatiblePSEditions = @('Desktop', 'Core')

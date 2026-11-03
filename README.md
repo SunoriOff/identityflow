@@ -164,4 +164,4 @@ La CI exécute les tests sous Windows PowerShell 5.1, sous PowerShell 7 (Windows
 
 ## Licence
 
-MIT — Joris Pelaud
+WTFPL — Joris Pelaud
