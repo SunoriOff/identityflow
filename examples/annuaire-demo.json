@@ -1,0 +1,41 @@
+{
+  "groups": [
+    "GG-Tous", "GG-Direction", "GG-DSI", "GG-Admins-Serveurs", "GG-VPN", "GG-RH", "GG-Partage-RH",
+    "GG-Compta", "GG-Partage-Finance", "GG-Commerciaux", "GG-CRM", "GG-Logistique", "GG-Alternants",
+    "GG-Stagiaires", "LIC-M365-E3", "LIC-M365-F3", "LIC-M365-BusinessPremium", "Imprimante-Etage2"
+  ],
+  "users": [
+    { "Login": "claire.martin", "Upn": "claire.martin@exemple.fr", "Mail": "claire.martin@exemple.fr", "DisplayName": "Claire MARTIN",
+      "GivenName": "Claire", "Surname": "MARTIN", "EmployeeId": "E1001", "Title": "Directrice générale", "Department": "Direction",
+      "Office": "Nantes", "Company": "Exemple SA", "OU": "OU=Direction,OU=Utilisateurs,DC=exemple,DC=local", "Enabled": true,
+      "ManagerLogin": null, "Groups": ["GG-Tous", "GG-Direction", "LIC-M365-E3"], "Description": null, "AccountExpires": null, "HiddenFromAddressList": false },
+    { "Login": "karim.benali", "Upn": "karim.benali@exemple.fr", "Mail": "karim.benali@exemple.fr", "DisplayName": "Karim BENALI",
+      "GivenName": "Karim", "Surname": "BENALI", "EmployeeId": "E1010", "Title": "Responsable informatique", "Department": "Informatique",
+      "Office": "Nantes", "Company": "Exemple SA", "OU": "OU=Informatique,OU=Utilisateurs,DC=exemple,DC=local", "Enabled": true,
+      "ManagerLogin": "claire.martin", "Groups": ["GG-Tous", "GG-DSI", "GG-Admins-Serveurs", "GG-VPN", "LIC-M365-E3"], "Description": null, "AccountExpires": null, "HiddenFromAddressList": false },
+    { "Login": "sophie.leroy", "Upn": "sophie.leroy@exemple.fr", "Mail": "sophie.leroy@exemple.fr", "DisplayName": "Sophie LEROY",
+      "GivenName": "Sophie", "Surname": "LEROY", "EmployeeId": "E1020", "Title": "Responsable RH", "Department": "Ressources humaines",
+      "Office": "Nantes", "Company": "Exemple SA", "OU": "OU=RH,OU=Utilisateurs,DC=exemple,DC=local", "Enabled": true,
+      "ManagerLogin": "claire.martin", "Groups": ["GG-Tous", "GG-RH", "GG-Partage-RH", "LIC-M365-E3"], "Description": null, "AccountExpires": null, "HiddenFromAddressList": false },
+    { "Login": "julien.dupont", "Upn": "julien.dupont@exemple.fr", "Mail": "julien.dupont@exemple.fr", "DisplayName": "Julien DUPONT",
+      "GivenName": "Julien", "Surname": "DUPONT", "EmployeeId": "E1031", "Title": "Commercial", "Department": "Commercial",
+      "Office": "Lille", "Company": "Exemple SA", "OU": "OU=Commercial,OU=Utilisateurs,DC=exemple,DC=local", "Enabled": true,
+      "ManagerLogin": "claire.martin", "Groups": ["GG-Tous", "GG-Commerciaux", "GG-CRM", "LIC-M365-BusinessPremium", "Imprimante-Etage2"], "Description": null, "AccountExpires": null, "HiddenFromAddressList": false },
+    { "Login": "jean.dupont", "Upn": "jean.dupont@exemple.fr", "Mail": "jean.dupont@exemple.fr", "DisplayName": "Jean DUPONT",
+      "GivenName": "Jean", "Surname": "DUPONT", "EmployeeId": "E1032", "Title": "Commercial", "Department": "Commercial",
+      "Office": "Nantes", "Company": "Exemple SA", "OU": "OU=Commercial,OU=Utilisateurs,DC=exemple,DC=local", "Enabled": true,
+      "ManagerLogin": "julien.dupont", "Groups": ["GG-Tous", "GG-Commerciaux", "GG-CRM", "LIC-M365-BusinessPremium"], "Description": null, "AccountExpires": null, "HiddenFromAddressList": false },
+    { "Login": "thomas.petit", "Upn": "thomas.petit@exemple.fr", "Mail": "thomas.petit@exemple.fr", "DisplayName": "Thomas PETIT",
+      "GivenName": "Thomas", "Surname": "PETIT", "EmployeeId": "E1045", "Title": "Préparateur de commandes", "Department": "Logistique",
+      "Office": "Nantes", "Company": "Exemple SA", "OU": "OU=Logistique,OU=Utilisateurs,DC=exemple,DC=local", "Enabled": true,
+      "ManagerLogin": "claire.martin", "Groups": ["GG-Tous", "GG-Logistique", "LIC-M365-F3"], "Description": null, "AccountExpires": null, "HiddenFromAddressList": false },
+    { "Login": "nadia.haddad", "Upn": "nadia.haddad@exemple.fr", "Mail": "nadia.haddad@exemple.fr", "DisplayName": "Nadia HADDAD",
+      "GivenName": "Nadia", "Surname": "HADDAD", "EmployeeId": "E1060", "Title": "Comptable", "Department": "Comptabilité",
+      "Office": "Nantes", "Company": "Exemple SA", "OU": "OU=Departs,DC=exemple,DC=local", "Enabled": false,
+      "ManagerLogin": "claire.martin", "Groups": [], "Description": "Départ le 2026-07-01 (IdentityFlow)", "AccountExpires": null, "HiddenFromAddressList": true },
+    { "Login": "marc.roux", "Upn": "marc.roux@exemple.fr", "Mail": "marc.roux@exemple.fr", "DisplayName": "Marc ROUX",
+      "GivenName": "Marc", "Surname": "ROUX", "EmployeeId": "E1061", "Title": "Magasinier", "Department": "Logistique",
+      "Office": "Nantes", "Company": "Exemple SA", "OU": "OU=Departs,DC=exemple,DC=local", "Enabled": false,
+      "ManagerLogin": "claire.martin", "Groups": [], "Description": "Départ le 2026-10-15 (IdentityFlow)", "AccountExpires": null, "HiddenFromAddressList": true }
+  ]
+}

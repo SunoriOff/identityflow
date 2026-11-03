@@ -1,0 +1,10 @@
+﻿Action;Matricule;Prénom;Nom;Poste;Service;Site;Manager;Contrat;DateEffet;DateFin
+Arrivée;E1101;Hélène;N'Diaye;Administratrice systèmes;Informatique;Nantes;E1010;CDI;2026-11-05;
+Arrivée;E1102;Jean;Dupont;Chargé de clientèle;Commercial;Lille;E1031;CDD;03/11/2026;02/05/2027
+Arrivée;E1103;Léa;Moreau;Assistante RH;Ressources humaines;Nantes;E1020;Alternance;2026-11-02;2028-08-31
+Arrivée;E1104;Maxime;Garnier;Développeur;Informatique;Nantes;E1101;Stage;2026-12-01;2027-02-28
+Mobilité;E1031;;;Comptable;Comptabilité;;E1001;;2026-11-01;
+Départ;E1045;;;;;;;;2026-10-31;
+Arrivée;E1105;Paul;Bernard;Juriste;Juridique;Nantes;;CDI;2026-11-04;
+Départ;E9999;;;;;;;;2026-10-31;
+Arrivée;E1106;Inès;Faure;Commerciale;Commercial;Lyon;E1031;CDD;2026-11-03;
